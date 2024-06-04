@@ -30,7 +30,7 @@ exports.resetPasswordToken = async (req, res) => {
         );
         console.log('DETAILS: ', updatedDetails);
         //create url
-        const url = `https://edtech-client-1.onrender.com/update-password/${token}`; 
+        const url = `https://edtech-client-1.onrender.com/forgot-password/${token}`; 
         //send mail containing the url
         await mailSender(
             email,
