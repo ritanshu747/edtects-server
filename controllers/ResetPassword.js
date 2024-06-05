@@ -30,7 +30,7 @@ exports.resetPasswordToken = async (req, res) => {
         );
         console.log('DETAILS: ', updatedDetails);
         //create url
-        const url = `https://edunotion-feps2cosm-ritanshu747s-projects.vercel.app/forgot-password${token}`; 
+        const url = `https://edunotion-feps2cosm-ritanshu747s-projects.vercel.app/update-password/${token}`; 
         //send mail containing the url
         await mailSender(
             email,
