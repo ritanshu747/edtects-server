@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cookieParser());
 app.use(
     cors({
-        origin: ['https://edtech-client-1.onrender.com', 'http://localhost:3000','https://edunotion-feps2cosm-ritanshu747s-projects.vercel.app'],
+        origin: ['https://edtech-client-1.onrender.com', 'http://localhost:3000','https://edunotion-feps2cosm-ritanshu747s-projects.vercel.app','https://edtech-client-one.vercel.app'],
         credentials: true,
     })
 );
